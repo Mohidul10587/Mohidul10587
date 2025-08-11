@@ -1,98 +1,175 @@
-<h1 align="center">👋 Hi, I'm <span style="color:#007acc;">MD. MOHIDUL ISLAM</span></h1>
-<h3 align="center">💻 Full Stack Web Developer | 🚀 Passionate Coder | 🌐 Open Source Enthusiast</h3>
+<div align="center">
+
+# 🚀 v0 Next.js Application
+
+*A modern, full-stack web application built with Next.js 14, TypeScript, and Tailwind CSS*
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Latest-000000?style=for-the-badge)](https://ui.shadcn.com/)
+
+[🌟 Live Demo](https://your-app-url.vercel.app) • [📖 Documentation](#documentation) • [🐛 Report Bug](https://github.com/yourusername/your-repo/issues) • [✨ Request Feature](https://github.com/yourusername/your-repo/issues)
+
+</div>
 
 ---
 
-<p align="center">
-  📍 <strong>Location:</strong> Pirojpur, Bangladesh <br/>
-  📞 <strong>Phone:</strong> +8801704710587 <br/>
-  📧 <strong>Email:</strong> <a href="mailto:mohid10587@gmail.com">mohid10587@gmail.com</a> <br/>
-  🔗 <strong>GitHub:</strong> <a href="https://github.com/Mohidul10587">github.com/Mohidul10587</a>
-</p>
+## ✨ Features
+
+- 🎨 **Modern UI/UX** - Beautiful, responsive design with shadcn/ui components
+- ⚡ **Lightning Fast** - Built with Next.js 14 App Router for optimal performance
+- 🔧 **TypeScript** - Full type safety and enhanced developer experience
+- 🎭 **Dark/Light Mode** - Seamless theme switching with next-themes
+- 📱 **Mobile First** - Responsive design that works on all devices
+- 🛠️ **Developer Ready** - Hot reload, ESLint, and modern tooling
+- 🎯 **SEO Optimized** - Built-in SEO best practices and meta tags
+- 🔒 **Production Ready** - Optimized build and deployment configuration
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Frontend | Styling | Development | Deployment |
+|----------|---------|-------------|------------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) |
+| ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) | ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat) | ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=flat&logo=eslint&logoColor=white) | ![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white) |
+
+</div>
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+Make sure you have the following installed:
+- **Node.js** (v18.0.0 or higher)
+- **npm** or **yarn** or **pnpm**
+
+### Installation
+
+1. **Clone the repository**
+   \`\`\`bash
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
+   \`\`\`
+
+2. **Install dependencies**
+   \`\`\`bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   \`\`\`
+
+3. **Run the development server**
+   \`\`\`bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   \`\`\`
+
+4. **Open your browser**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000) to see your application running! 🎉
+
+## 📁 Project Structure
+
+\`\`\`
+├── app/                    # Next.js 14 App Router
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout component
+│   └── page.tsx           # Home page
+├── components/            # Reusable UI components
+│   ├── ui/               # shadcn/ui components
+│   └── theme-provider.tsx # Theme provider
+├── hooks/                # Custom React hooks
+│   ├── use-mobile.tsx    # Mobile detection hook
+│   └── use-toast.ts      # Toast notification hook
+├── lib/                  # Utility functions
+│   └── utils.ts          # Common utilities
+├── public/               # Static assets
+├── next.config.mjs       # Next.js configuration
+├── package.json          # Dependencies and scripts
+├── tailwind.config.ts    # Tailwind CSS configuration
+└── tsconfig.json         # TypeScript configuration
+\`\`\`
+
+## 🎨 Customization
+
+### Adding New Components
+
+This project uses **shadcn/ui** for components. To add a new component:
+
+\`\`\`bash
+npx shadcn@latest add [component-name]
+\`\`\`
+
+### Styling
+
+- **Tailwind CSS** - Utility-first CSS framework
+- **CSS Variables** - Custom properties for theming
+- **Dark Mode** - Automatic dark/light mode switching
+
+### Fonts
+
+The project uses **Geist Sans** and **Geist Mono** fonts for optimal readability and modern aesthetics.
+
+## 📚 Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run type-check` | Run TypeScript compiler |
+
+## 🌐 Deployment
+
+### Deploy on Vercel (Recommended)
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/your-repo)
+
+### Other Platforms
+
+- **Netlify**: Connect your GitHub repository
+- **Railway**: One-click deployment
+- **Docker**: Use the included Dockerfile
+
+## 🤝 Contributing
+
+We love contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+1. **Fork the repository**
+2. **Create your feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
+4. **Push to the branch** (`git push origin feature/amazing-feature`)
+5. **Open a Pull Request**
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) - The React framework for production
+- [shadcn/ui](https://ui.shadcn.com/) - Beautiful and accessible components
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Vercel](https://vercel.com/) - Platform for frontend frameworks
 
 ---
 
-## 🛠️ Skills
+<div align="center">
 
-### 🚀 Front-end
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js)
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat&logo=tailwind-css)
-![Socket.io](https://img.shields.io/badge/-Socket.io-010101?style=flat&logo=socket.io)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase)
+**[⬆ Back to Top](#-v0-nextjs-application)**
 
-### 🧠 Back-end
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat&logo=express&logoColor=white)
-![Zod](https://img.shields.io/badge/-Zod-blueviolet)
-![Sequelize](https://img.shields.io/badge/-Sequelize-03AFEF?style=flat&logo=sequelize&logoColor=white)
+Made with ❤️ by [Your Name](https://github.com/yourusername)
 
-### 🗃️ Database
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+*If you found this project helpful, please consider giving it a ⭐!*
 
-### 📱 Android (React Native)
-> Using **Expo Go** to build lightweight mobile apps
-
-### 🧠 AI Agent
-> Hands-on with Operoutre (Gemini)
-
-### 🧪 Familiar With
-PHP | Laravel | NestJs | Blockchain | Unit Testing | OOP | React Bootstrap
-
----
-
-## 🔥 Featured Projects
-
-### 🛒 [Bkroy](https://bkroy.96s.info)
-> E-commerce site with real-time messenger and a powerful page builder  
-**Tech Stack**: Next.js, TypeScript, TailwindCSS, Express, MongoDB
-
----
-
-### 🛍️ [Zuri Cart](https://zcke.vercel.app)
-> Dynamic e-commerce with authentication and page builder  
-**Tech Stack**: Next.js, TypeScript, TailwindCSS, NextAuth, Express, MongoDB
-
----
-
-### 📦 [Jumia](https://jumias.vercel.app)
-> Real-time e-commerce with messenger and page builder  
-**Tech Stack**: Socket.io, Next.js, TypeScript, TailwindCSS, Express, MongoDB
-
----
-
-## 👨‍💼 Experience
-
-### 👨‍💻 Intern Frontend Developer — *Khsoft.io*
-📍 Gobindogong, Gaibandha  
-🗓️ **February 2022 – September 2022 (8 months)**  
-🔧 Worked on front-end projects using React and TailwindCSS, contributed to reusable UI components.
-
----
-
-## 🎓 Education
-
-- 🎓 **Diploma in Mechanical Engineering** (Passing Year: 2012)
-- 🎓 **Secondary School Certificate (SSC)** (Passing Year: 2008)
-
----
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,nodejs,express,mongodb,mysql,tailwind,firebase,redux,github,git" />
-</p>
-
----
-
-## 📫 Connect with Me
-
-- 💼 LinkedIn: *Coming Soon*
-- 📧 Email: [mohid10587@gmail.com](mailto:mohid10587@gmail.com)
-- 🌐 Portfolio: *Coming Soon*
-
----
-
-⭐️ *Thank you for visiting my profile! Let’s build something great together.* 🚀
+</div>
